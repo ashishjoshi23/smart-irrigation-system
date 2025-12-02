@@ -20,19 +20,19 @@ An IoT-based automated irrigation system that monitors soil moisture, temperatur
 
 ##  Hardware Components
 
- **Raspberry Pi 3**: Main controller 
- **LM35 Sensor**: Temperature monitoring 
- **Soil Moisture Sensor**: Soil water content measurement 
- **Rain Sensor**: Rainfall detection 
- **DC Motor (12V)**: Water pump 
- **GSM Module**: SMS notifications 
- **16x2 LCD**: Status display
+ **1.Raspberry Pi 3**: Main controller 
+ **2.LM35 Sensor**: Temperature monitoring 
+ **3.Soil Moisture Sensor**: Soil water content measurement 
+ **4.Rain Sensor**: Rainfall detection 
+ **5.DC Motor (12V)**: Water pump 
+ **6.GSM Module**: SMS notifications 
+ **7.16x2 LCD**: Status display
 
 ## Software Requirements
- Raspberry Pi OS
- Python 3.x
- RPi.GPIO library
- spidev library
+ 1.Raspberry Pi OS
+ 2.Python 3.x
+ 3.RPi.GPIO library
+ 4.spidev library
 
 ## Installation & Setup
 
@@ -42,14 +42,6 @@ An IoT-based automated irrigation system that monitors soil moisture, temperatur
 3. Connect LCD display
 4. Power up the system
 
-### Software Installation
-
-# Clone repository
-git clone https://github.com/ashishjoshi23/Smart-Irrigation-System.git
-cd Smart-Irrigation-System
-
-# Install dependencies
-pip install -r python/requirements.txt
 
 ## Working Logic
 
