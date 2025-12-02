@@ -1,0 +1,35 @@
+# Smart Irrigation System - Project Summary
+
+## Overview
+An IoT-based automated irrigation system that uses soil moisture, temperature, and rain sensors to control a water pump, reducing water waste and improving crop health. Notifications are sent to farmers via GSM.
+
+## Key Features
+- Automated watering based on soil moisture and temperature
+- Rain detection to prevent unnecessary watering
+- Real-time SMS alerts to farmer's mobile
+- LCD display for system status
+- Energy efficient design
+
+## Components Used
+- Raspberry Pi 3 (Controller)
+- LM35 Temperature Sensor
+- Soil Moisture Sensor
+- Rain Sensor
+- DC Motor (Water Pump)
+- GSM Module for alerts
+- 16x2 LCD Display
+
+## Working Principle
+1. Sensors continuously monitor environment
+2. If temperature > 25°C AND moisture < 100 → Motor ON
+3. If rain detected → Motor OFF
+4. SMS alerts sent for all state changes
+5. LCD displays real-time parameters
+
+## Team Members
+- Ashish Joshi
+- Anikate Verma
+- Arghyadeep Ghosh
+
+
+Submitted as part of NIELIT Intern IoT program
