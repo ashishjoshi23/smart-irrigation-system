@@ -55,3 +55,24 @@ else:
 
 # Run the system
 sudo python python/smart_irrigation.py
+
+## Advantages
+Water Conservation: Reduces water usage by 40-60%
+
+Increased Yield: Optimal watering improves crop health
+
+Cost-Effective: Low operational cost
+
+Easy to Use: Minimal manual intervention required
+
+Scalable: Can be expanded for large agricultural fields
+
+## Challenges
+
+Initial setup cost
+
+Requires stable power supply
+
+Sensor calibration needed for different soil types
+
+"Developed during IoT Inten 2021 at NIELIT"
